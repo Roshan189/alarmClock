@@ -6,7 +6,7 @@
 
 #clock {
   padding: 30px;
-  background-color: blueviolet;
+  background-color: cornflowerblue;
   width: 50%;
   margin: auto;
   color: white;
@@ -19,7 +19,7 @@
 
 .alarm-container {
   text-align: center;
-  background-color: #000;
+  background-color: lightgray;
   padding: 20px 0;
   width: 50%;
   margin: auto;
@@ -28,7 +28,7 @@
 .alarm-container h3 {
   font-size: 43px;
   letter-spacing: normal;
-  color: violet;
+  color: black;
 }
 
 .alarm-items {
@@ -50,7 +50,7 @@
   align-items: center;
   margin: auto;
   width: 50%;
-  background-color: antiquewhite;
+  background-color: #ffc0c7;
 }
 
 .all-buttons div {
@@ -78,7 +78,7 @@
 }
 
 .all-buttons div:nth-child(2) button:hover {
-  background-color: red;
+  background-color: crimson;
   color: white;
 }
 
