@@ -8,7 +8,8 @@ var currentTime = setInterval(function () {
   var date = new Date();
 
   // to convert time after 12 into 1, 2
-  var hours = 12 - date.getHours();
+  var hours = date.getHours();
+  hours = hours % 12 || 12;
   var minutes = date.getMinutes();
   var seconds = date.getSeconds();
   var ampm = date.getHours() < 12 ? "AM" : "PM";
